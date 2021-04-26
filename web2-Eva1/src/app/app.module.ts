@@ -8,6 +8,15 @@ import { BannerComponent } from './banner/banner.component';
 import { CardsComponent } from './cards/cards.component';
 import { InformationComponent } from './information/information.component';
 import { FooterComponent } from './footer/footer.component';
+import { AboutUsComponent } from './about-us/about-us.component';
+import { ProyectComponent } from './proyect/proyect.component';
+import { LogosComponent } from './logos/logos.component';
+import { ServiComponent } from './servi/servi.component';
+import { ExploreComponent } from './explore/explore.component';
+import { NumbersComponent } from './numbers/numbers.component';
+import { TeamComponent } from './team/team.component';
+import { TestimonialsComponent } from './testimonials/testimonials.component';
+import { BlogComponent } from './blog/blog.component';
 
 @NgModule({
   declarations: [
@@ -16,7 +25,16 @@ import { FooterComponent } from './footer/footer.component';
     BannerComponent,
     CardsComponent,
     InformationComponent,
-    FooterComponent
+    FooterComponent,
+    AboutUsComponent,
+    ProyectComponent,
+    LogosComponent,
+    ServiComponent,
+    ExploreComponent,
+    NumbersComponent,
+    TeamComponent,
+    TestimonialsComponent,
+    BlogComponent
   ],
   imports: [
     BrowserModule,
