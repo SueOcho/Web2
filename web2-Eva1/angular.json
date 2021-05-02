@@ -25,10 +25,16 @@
             ],
             "styles": [
               "node_modules/bootstrap/dist/css/bootstrap.min.css",
+              "src/assets/css/plugins/plugins.min.css",
+              "src/assets/css/vendor/vendor.min.css",
               "src/styles.css"
             ],
             "scripts": [
-              "node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"
+              "node_modules/bootstrap/dist/js/bootstrap.bundle.min.js",    
+              "src/assets/js/vendor.min.js",                        
+              "src/assets/js/plugins.min.js",
+              "src/assets/js/main.min.js"
+              
             ]
           },
           "configurations": {
