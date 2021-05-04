@@ -20,16 +20,16 @@ describe('AppComponent', () => {
     expect(app).toBeTruthy();
   });
 
-  it(`should have as title 'web2-Eva1'`, () => {
+  it(`should have as title 'web2Core'`, () => {
     const fixture = TestBed.createComponent(AppComponent);
     const app = fixture.componentInstance;
-    expect(app.title).toEqual('web2-Eva1');
+    expect(app.title).toEqual('web2Core');
   });
 
   it('should render title', () => {
     const fixture = TestBed.createComponent(AppComponent);
     fixture.detectChanges();
     const compiled = fixture.nativeElement;
-    expect(compiled.querySelector('.content span').textContent).toContain('web2-Eva1 app is running!');
+    expect(compiled.querySelector('.content span').textContent).toContain('web2Core app is running!');
   });
 });

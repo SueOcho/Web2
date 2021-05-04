@@ -1,40 +1,20 @@
-import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
+import { NgModule } from '@angular/core';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
-import { NavComponent } from './nav/nav.component';
-import { BannerComponent } from './banner/banner.component';
-import { CardsComponent } from './cards/cards.component';
-import { InformationComponent } from './information/information.component';
-import { FooterComponent } from './footer/footer.component';
-import { AboutUsComponent } from './about-us/about-us.component';
-import { ProyectComponent } from './proyect/proyect.component';
-import { LogosComponent } from './logos/logos.component';
-import { ServiComponent } from './servi/servi.component';
-import { ExploreComponent } from './explore/explore.component';
-import { NumbersComponent } from './numbers/numbers.component';
-import { TeamComponent } from './team/team.component';
-import { TestimonialsComponent } from './testimonials/testimonials.component';
-import { BlogComponent } from './blog/blog.component';
+import { HomeComponent } from './components/home/home.component';
+import { ContactComponent } from './components/contact/contact.component';
+import { FooterComponent } from './components/shared/footer/footer.component';
+import { HeaderComponent } from './components/shared/header/header.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    NavComponent,
-    BannerComponent,
-    CardsComponent,
-    InformationComponent,
+    HomeComponent,
+    ContactComponent,
     FooterComponent,
-    AboutUsComponent,
-    ProyectComponent,
-    LogosComponent,
-    ServiComponent,
-    ExploreComponent,
-    NumbersComponent,
-    TeamComponent,
-    TestimonialsComponent,
-    BlogComponent
+    HeaderComponent
   ],
   imports: [
     BrowserModule,

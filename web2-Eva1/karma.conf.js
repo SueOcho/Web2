@@ -25,7 +25,7 @@ module.exports = function (config) {
       suppressAll: true // removes the duplicated traces
     },
     coverageReporter: {
-      dir: require('path').join(__dirname, './coverage/web2-Eva1'),
+      dir: require('path').join(__dirname, './coverage/web2Core'),
       subdir: '.',
       reporters: [
         { type: 'html' },
